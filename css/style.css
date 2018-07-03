@@ -137,9 +137,7 @@
     pointer-events: none; 
   }
   
-  h1 {
-    text-indent: 5%; 
-  }
+ 
   
   
   body, html {
@@ -152,3 +150,16 @@
   body, html.on {
     overflow: auto; 
   }
+
+nav{
+    background-color: white !important;
+   
+}
+
+nav ul li{
+    background-color: #0A0A0A ;
+}
+.container
+{
+    padding: 3%;
+}

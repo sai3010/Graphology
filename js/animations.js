@@ -10,6 +10,6 @@ setTimeout(function() {
         $('body, html').addClass('on'); 
         
         
-        }, 500)
-    }, 500)
-  }, 1500)
+        })
+    })
+  }, 800)
