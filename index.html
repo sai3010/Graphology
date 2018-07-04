@@ -4,7 +4,9 @@
 <head>
     <title>Graphology</title>
     <!--Import Google Icon Font-->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Italianno|Lobster|Markazi+Text|Niconne|Parisienne|Raleway|Roboto|Vast+Shadow" rel="stylesheet">
     <!--Import materialize.css-->
 
@@ -29,29 +31,38 @@
 	</div>
 
 	<!--navbar-->
-	<nav id="navbar">
-			<div class="nav-wrapper">
-			  <a class="brand-logo">Logo</a>
-			  <ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			  </ul>
-			</div>
-		  </nav>
+    <nav id="navbar">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo">Logo</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Upload</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Upload</a></li>
+          </ul>
 				
 
 	<!--main-->
 	<div class="head">
         <h1 class="title">Monisha's Graphology</h1>
 	</div>
-	
+    <!--Main ends-->
+    
 	<!--about us-->
     <div class="about">
         <div class="row">
-            <div class="col s7 m8 l7 offset-l1 ">
+            <div class="about_desc col s7 m8 l7 offset-l1 ">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
             </div>
             <div class=" col s5 m4 l4  ">
                 <img class="img_1" src="assets/images/pen.png" alt="..." />
@@ -59,7 +70,29 @@
 
         </div>
     </div>
+    <!--about ends-->
 
+    <!--smiley-->
+    <div class="container">
+        <h1 class="sec2_title">Graphology Analysis</h1>
+        <div class="row" align="center">
+        <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header"><i class="far fa-smile-wink"></i>JudgeMental</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+        </ul>
+       </div>
+    </div>
+    <!--smiley ends-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="js/index.js"></script>

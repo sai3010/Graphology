@@ -15,6 +15,10 @@ setTimeout(function() {
     })
   }, 800)
 
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+        
   /*nav bar scroll*/
   window.onscroll = function() {scrollFunction()};
 
@@ -25,3 +29,8 @@ function scrollFunction() {
         document.getElementById("navbar").style.top = "-100px";
     }
 }
+
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+      

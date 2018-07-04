@@ -137,17 +137,22 @@ body, html.on {
 /* general ends*/
 /*nav bar */
 nav {
-  font-family: 'Lobster';
+  font-family: 'Poppins';
+  font-weight: 600;
   box-shadow: none !important;
   background-color: #333 !important;
   position: fixed;
   top: -100px;
   width: 100%;
   transition: top 0.3s;
-  z-index: 1000;
+  z-index: 900;
 }
 nav a {
   color: white !important;
+}
+.sidenav
+{
+  z-index: 10000;
 }
 /*nav bar ends*/
 /*home section */
@@ -155,6 +160,13 @@ nav a {
   position: absolute;
   text-align: center;
   width: 100%;
+}
+@media screen and (max-width:500px)
+{
+  .title
+  {
+    font-size: 12vw !important;
+  }
 }
 .head {
   font-family: 'Vast Shadow', cursive;
@@ -166,12 +178,29 @@ nav a {
 }
 /* home section ends*/
 /*About us section*/
-.img_1 {
+.img_1 
+{
   height: 40vh;
 }
-.about {
-  font-family: 'Raleway', sans-serif;
-  display: block;
-  position: absolute;
+.about
+{
+  margin-top:5%;
 }
+.about_desc 
+{
+  font-family: 'Poppins';
+  color: #898989;
+  font-size: 1.3em;
+  font-weight:500;
+}
+
 /* about ends*/
+
+/*smiley starts*/
+.sec2_title
+{
+  text-align: center;
+  font-family: 'Poppins-SemiBold';
+  color: #475270;
+}
+/*smiley ends*/
