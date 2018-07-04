@@ -151,15 +151,29 @@
     overflow: auto; 
   }
 
-nav{
-    background-color: white !important;
-   
-}
-
-nav ul li{
-    background-color: #0A0A0A ;
+nav
+{
+ background-color: black !important ;
+ font-family: 'Lobster' ,cursive;
 }
 .img_1
 {
-    height: 20vh;
+    height: 40vh;
+}
+h1
+{
+    padding :3%;
+}
+
+.container
+{
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+.head
+{
+    font-family: 'Vast Shadow', cursive;
+    font-style: bold;
+    height: 30vh;
 }
