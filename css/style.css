@@ -165,10 +165,11 @@ h1
     padding :3%;
 }
 
-.container
+.about
 {
     font-family: 'Raleway', sans-serif;
     display: block;
+    position: absolute;
 }
 
 .head
