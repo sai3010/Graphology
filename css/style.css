@@ -137,23 +137,25 @@ body, html.on {
 /* general ends*/
 /*nav bar */
 nav {
-  font-family: 'Poppins';
-  font-weight: 600;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
   box-shadow: none !important;
-  background-color: #333 !important;
+  background-color: transparent !important;
   position: fixed;
   top: -100px;
   width: 100%;
   transition: top 0.3s;
-  z-index: 900;
+  z-index: 400;
+ 
 }
 nav a {
-  color: white !important;
+  color: black !important;
 }
 .sidenav
 {
   z-index: 10000;
 }
+
 /*nav bar ends*/
 /*home section */
 .title {
@@ -169,13 +171,19 @@ nav a {
   }
 }
 .head {
-  font-family: 'Vast Shadow', cursive;
+  font-family: 'Shrikhand', cursive;
   font-style: bold;
-  height: 100vh;
-  background: url(../assets/images/bg2.jpg);
+  height: 50vh;
+  background: url(../assets/images/bg4.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.title
+{
+  padding: 1%;
+  color: black;
+}
+
 /* home section ends*/
 /*About us section*/
 .img_1 
@@ -189,7 +197,7 @@ nav a {
 .about_desc 
 {
   font-family: 'Poppins';
-  color: #898989;
+  color: #424242;
   font-size: 1.3em;
   font-weight:500;
 }
@@ -200,7 +208,12 @@ nav a {
 .sec2_title
 {
   text-align: center;
-  font-family: 'Poppins-SemiBold';
-  color: #475270;
+  font-family: 'Shrikhand', cursive;
+  color: #212121;
+}
+.row
+{
+  font-family: 'Poppins';
+  color: #424242;
 }
 /*smiley ends*/
