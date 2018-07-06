@@ -211,9 +211,24 @@ nav a {
   font-family: 'Shrikhand', cursive;
   color: #212121;
 }
+
 .row
 {
   font-family: 'Poppins';
   color: #424242;
 }
 /*smiley ends*/
+
+/*update starts*/
+.sec2_title1
+{
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  color: #212121;
+}
+
+#upload
+{
+  display: flex; 
+  justify-content: center;
+}
