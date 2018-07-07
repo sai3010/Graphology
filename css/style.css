@@ -139,10 +139,10 @@ body, html.on {
 /* general ends*/
 /*nav bar */
 nav {
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 300;
   box-shadow: none !important;
-  background-color: transparent !important;
+  background-color: #424242   !important;
   position: fixed;
   top: -100px;
   width: 100%;
@@ -151,7 +151,7 @@ nav {
  
 }
 nav a {
-  color: black !important;
+  color: white !important;
 }
 .sidenav
 {
@@ -175,8 +175,8 @@ nav a {
 .head {
  
   font-style: bold;
-  height: 70vh;
-  background: url(../assets/images/bg9.jpg);
+  height: 100vh;
+  background: url(../assets/images/bg7.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -261,8 +261,11 @@ p
 
 @media screen and (min-width:300px) and (max-width:700px){
   #hbody{
-          font-size: 12px;
+          font-size: 10px;
           font-display:'Roboto' , sans-serif;
           color: #eeeeee  ;
+  }
+  #head{
+    font-size: 40px;
   }
 }
