@@ -274,6 +274,7 @@ p
   }
   #head{
     font-size: 50px;
+    margin-top: -2%;
   }
   .about_desc
   {
@@ -281,7 +282,10 @@ p
     word-spacing: .5rem;
     margin: 3%;
   }
-  
+  .head
+  {
+    height: 80vh;
+  }
 }
 
 @media screen and (min-width:300px) and (max-width:400px){
@@ -292,6 +296,7 @@ p
 }
 #head{
 font-size: 40px;
+margin-top: -2%;
 }
 .about_desc
   {
@@ -299,5 +304,9 @@ font-size: 40px;
     word-spacing: .5rem;
     margin: 3%;
   }
-  
+  .head
+  {
+    height: 70vh;
+  }
+
 }
