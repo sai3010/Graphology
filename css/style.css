@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
 /*loader animation starts here*/
 .inner {
   position: absolute;
@@ -171,19 +173,30 @@ nav a {
   }
 }
 .head {
-  font-family: 'Shrikhand', cursive;
+ 
   font-style: bold;
-  height: 50vh;
- background: url(../assets/images/bg4.jpg);
+  height: 70vh;
+  background: url(../assets/images/bg9.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .title
 {
-  padding: 1%;
-  color: black;
+ font-family: 'Shrikhand', cursive;
+  color:#e0f2f1;
+  z-index:15;
+  font-weight: bolder;
+  font-style: bold;
 }
-
+#head
+{
+  text-shadow:2px 2px #FF0000;
+}
+#hbody{
+  font-display:'Roboto' , sans-serif;
+  color: white;
+  font-style: bold;
+}
 /* home section ends*/
 /*About us section*/
 .img_1 
@@ -244,4 +257,12 @@ p
 .page-footer
 {
   background-color:  #424242  !important;
+}
+
+@media screen and (min-width:300px) and (max-width:700px){
+  #hbody{
+          font-size: 12px;
+          font-display:'Roboto' , sans-serif;
+          color: #eeeeee  ;
+  }
 }
