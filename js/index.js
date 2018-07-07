@@ -11,9 +11,9 @@ setTimeout(function() {
         $('body, html').addClass('on'); 
         
         
-        },1500)
-    },500)
-  }, 500)
+        })
+    })
+  }, 800)
 
   $(document).ready(function(){
     $('.sidenav').sidenav();

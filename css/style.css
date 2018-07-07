@@ -17,24 +17,24 @@
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 100%;
   position: absolute;
-  transition: all 0.5s ease;
+  transition: all .3s ease;
 }
 .inner > div:first-child {
-  margin-left: -27px;
+  margin-left: -25px;
   animation: one 1.5s linear 1;
 }
 .inner > div:nth-child(2) {
-  margin-left: 27px;
+  margin-left: 25px;
   animation: two 1.5s linear 1;
 }
 .inner > div:nth-child(3) {
   margin-top: 54px;
-  margin-left: -27px;
+  margin-left: -25px;
   animation: four 1.5s linear 1;
 }
 .inner > div:nth-child(4) {
   margin-top: 54px;
-  margin-left: 27px;
+  margin-left: 25px;
   animation: three 1.5s linear 1;
 }
 @keyframes one {
@@ -119,7 +119,7 @@
   width: 100%;
   height: 100vh;
   background-color: #0A0A0A;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   z-index: 2;
 }
 .pageLoad.off {
@@ -182,7 +182,7 @@ nav a {
 {
  font-family: 'Shrikhand', cursive;
   color:#e0f2f1;
-  z-index:15;
+  z-index: 1;
   font-weight: bolder;
   font-style: bold;
 }
@@ -201,16 +201,14 @@ nav a {
 {
   height: 40vh;
 }
-.about
-{
-  margin-top:5%;
-}
+
 .about_desc 
 {
   font-family: 'Poppins';
   color: #424242;
   font-size: 1.3em;
   font-weight:500;
+  margin-top: 3%;
 }
 
 /* about ends*/
@@ -228,6 +226,22 @@ nav a {
   font-family: 'Poppins';
   color: #424242;
 }
+
+
+#card1
+{
+  box-shadow:2px 3px 2px 5px #d7ccc8;
+  border-radius: 5px;
+  
+}
+
+#card2
+{
+  box-shadow:2px 3px 2px 5px #d7ccc8;
+  border-radius: 5px;
+  
+}
+
 /*smiley ends*/
 
 /*update starts*/
@@ -259,19 +273,34 @@ p
 /*footer ends*/
 
 /*animations*/
-
+#head {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+}
 
  /*ainmations*/
 
 
 
-@media screen and (min-width:300px) and (max-width:700px){
+@media screen and (min-width:400px) and (max-width:700px){
   #hbody{
-          font-size: 10px;
+          font-size: 15px;
           font-display:'Roboto' , sans-serif;
           color: #eeeeee  ;
   }
   #head{
-    font-size: 40px;
+    font-size: 50px;
   }
+}
+
+@media screen and (min-width:300px) and (max-width:400px){
+  #hbody{
+    font-size: 12px;
+    font-display:'Roboto' , sans-serif;
+    color: #eeeeee  ;
+}
+#head{
+font-size: 40px;
+}
+
 }
