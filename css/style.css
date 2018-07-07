@@ -137,9 +137,12 @@ body, html.on {
 }
 /* general ends*/
 /*nav bar */
-nav{
-  background-color: transparent!important ;
-  box-shadow: none !important;
+nav {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  background-color:transparent !important;
+ box-shadow: none !important;
+ 
 }
 nav a {
   color: white !important;
@@ -249,7 +252,6 @@ nav a {
 {
   width: 180px !important;
   margin-bottom: 1%;
-  border-radius: 5px;
 }
 
 p 
@@ -266,9 +268,19 @@ p
 }
 /*footer ends*/
 
+/*animations*/
+#head {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+}
+
+ /*ainmations*/
+
+
+
 @media screen and (min-width:400px) and (max-width:700px){
   #hbody{
-          font-size: 15px;
+          font-size: 12px;
           font-display:'Roboto' , sans-serif;
           color: #eeeeee  ;
   }
@@ -276,6 +288,7 @@ p
     font-size: 50px;
     margin-top: -2%;
   }
+
   .about_desc
   {
     font-size:15px;
@@ -286,6 +299,7 @@ p
   {
     height: 80vh;
   }
+
 }
 
 @media screen and (min-width:300px) and (max-width:400px){
@@ -296,17 +310,16 @@ p
 }
 #head{
 font-size: 40px;
-margin-top: -2%;
+margin-top: -4%;
 }
-.about_desc
+.head
+  {
+    height: 70vh;
+  }
+  .about_desc
   {
     font-size:15px;
     word-spacing: .5rem;
     margin: 3%;
   }
-  .head
-  {
-    height: 70vh;
-  }
-
 }
