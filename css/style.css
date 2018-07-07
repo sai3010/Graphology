@@ -131,7 +131,6 @@
 body, html {
   background-color: white;
   overflow: hidden;
-  font-family: 'Open Sans';
 }
 body, html.on {
   overflow: auto;
@@ -141,13 +140,12 @@ body, html.on {
 nav {
   font-family: 'Roboto',sans-serif;
   font-weight: 300;
-  box-shadow: none !important;
-  background-color: #424242   !important;
-  position: fixed;
+  background-color: black !important;
+ /*box-shadow: none !important;
+ position: fixed;
   top: -100px;
   width: 100%;
-  transition: top 0.3s;
-  z-index: 400;
+  z-index: 400;*/
  
 }
 nav a {
@@ -258,6 +256,14 @@ p
 {
   background-color:  #424242  !important;
 }
+/*footer ends*/
+
+/*animations*/
+
+
+ /*ainmations*/
+
+
 
 @media screen and (min-width:300px) and (max-width:700px){
   #hbody{

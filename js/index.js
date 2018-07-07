@@ -11,16 +11,16 @@ setTimeout(function() {
         $('body, html').addClass('on'); 
         
         
-        })
-    })
-  }, 800)
+        },1500)
+    },500)
+  }, 500)
 
   $(document).ready(function(){
     $('.sidenav').sidenav();
   });
         
   /*nav bar scroll*/
-  window.onscroll = function() {scrollFunction()};
+ /* window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -28,7 +28,7 @@ function scrollFunction() {
     } else {
         document.getElementById("navbar").style.top = "-100px";
     }
-}
+}*/
 
 $(document).ready(function(){
     $('.collapsible').collapsible();
