@@ -310,11 +310,10 @@ p
 }
 #head{
 font-size: 40px;
-margin-top: -18%;
 }
 .head
   {
-    height: 70vh;
+    height: 100vh;
   }
   .about_desc
   {
