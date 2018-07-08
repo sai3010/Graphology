@@ -39,18 +39,29 @@
             <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Home</a></li>
                 <li><a href="badges.html">About</a></li>
-                <li><a href="collapsible.html">Contact</a></li>
-                <li><a href="mobile.html">Upload</a></li>
-            </ul>
-        </div>
-    </nav>
+                <li><a class="modal-trigger" href="#modal1">Contact</a></li>
+          
 
     <ul class="sidenav" id="mobile-demo">
         <li><a href="sass.html">Home</a></li>
         <li><a href="badges.html">About</a></li>
-        <li><a href="collapsible.html">Contact</a></li>
+        <li><a class="modal-trigger" href="#modal1">Contact</a></li>
         <li><a href="mobile.html">Upload</a></li>
     </ul>
+           <!-- Modal Structure -->
+           <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+            </div>
+        <li><a href="mobile.html">Upload</a></li>
+    </ul>
+</div>
+</nav>
 
     <!--main-->
     <div class="head">
@@ -133,19 +144,8 @@
                             <p> To you, it's just handwriting, but to a handwriting analyst, it paints a picture of the person "behind the pen."</p>
                             <p> To gain a true insightful test of yourself <b>Upload</b> a handwritten document of your own.</p>
                         </div>
-                        <div class="row center"> <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" id="upload">Upload</a></div>
-                        <!-- Modal Structure -->
-                        <div id="modal1" class="modal">
-                            <div class="modal-content">
-                                <h4>Modal Header</h4>
-                                <p>A bunch of text</p>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-                            </div>
-                        </div>
-
-                    </div>
+                        <div class="row center"> <a class="waves-effect waves-light btn-large modal-trigger"  id="upload">Upload</a></div>
+                       </div>
                 </div>
 
             </div>
@@ -160,14 +160,17 @@
             <div class="row">
                 <div class="col m12 l12 s12">
                     <center>
-                        <h5 class="white-text">Graphology</h5></center>
+                        <h5 class="white-text" align="center">Graphology</h5></center>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2018 Copyright Text
-                <a class="grey-text text-lighten-4 right" href="#!">Social links</a>
+
+                2018 ©
+               <!-- <a class="grey-text text-lighten-4 right" href="#!"><img src="assets/images/fb.png"></a>
+                <a class="grey-text text-lighten-4 right" href="#!"><img src="assets/images/insta.jpg"></a>-->
+            
             </div>
         </div>
     </footer>
