@@ -20,7 +20,11 @@ setTimeout(function() {
   });
         
   /*nav bar scroll*/
+
   /*window.onscroll = function() {scrollFunction()};
+
+ window.onscroll = function() {scrollFunction()};
+>>>>>>> 4af08aa483df608a0a75fe250baa63ae506110c1
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -28,6 +32,7 @@ function scrollFunction() {
     } else {
         document.getElementById("navbar").style.top = "-100px";
     }
+
 }*/
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
@@ -45,13 +50,14 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
+
 }
 
 $(document).ready(function(){
     $('.collapsible').collapsible();
   });
 
-
+  new WOW().init();
 
   $(document).ready(function(){
     $('.modal').modal();
