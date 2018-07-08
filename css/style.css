@@ -137,16 +137,43 @@ body, html.on {
 }
 /* general ends*/
 /*nav bar */
-nav {
+/*nav {
   font-family: 'Roboto',sans-serif;
   font-weight: 300;
   background-color:transparent !important;
  box-shadow: none !important;
+ top: -100px;
+ margin: 0;
+
  
 }
-nav a {
-  color: white !important;
+*/
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
 }
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*nav a {
+  color: black !important;
+}*/
+
 .sidenav
 {
   z-index: 10000;
