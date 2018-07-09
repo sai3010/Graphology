@@ -217,6 +217,7 @@
      font-display:'Roboto' , sans-serif;
      color: white;
      font-style: bold;
+     font-size: 1.2em;
 }
 /* home section ends*/
 /*About us section*/
@@ -240,7 +241,7 @@
 {
     color: #212121;
     opacity: .75;
-    text-shadow:2px #d7ccc8;
+    text-shadow: 0.5px 0.5px  0.5px;
 }
 #card_sec
 {
