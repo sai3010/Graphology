@@ -68,6 +68,6 @@ $(document).ready(function(){
       });
     } // End if
   });
-
+  $('input#input_text, textarea#textarea2').characterCounter();
   $('.sidenav').sidenav();
 });
