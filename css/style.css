@@ -212,8 +212,21 @@
      font-weight:500;
      margin-top: 3%;
 }
+#aboutus
+{
+    margin-top:5%;
+}
 /* about ends*/
-/*smiley starts*/
+/*card sec starts*/
+.d_txt
+{
+    color: #212121;
+    opacity: .75;
+}
+#card_sec
+{
+    margin-top:5%;
+}
  .sec2_title {
      text-align: center;
      font-family: 'Shrikhand', cursive;
@@ -237,7 +250,7 @@
      box-shadow:2px 3px 2px 5px #d7ccc8;
      border-radius: 5px;
 }
-/*smiley ends*/
+/*card sec ends*/
 
 /*update starts*/
  .sec2_title1 {
@@ -248,6 +261,7 @@
  #upload {
      width: 180px !important;
      margin-bottom: 1%;
+     background-color: #555555;
 }
  p {
      font-family: 'Poppins';
@@ -258,7 +272,44 @@
  .page-footer {
      background-color: #424242 !important;
 }
+.foot_text
+{
+    color:white;
+    text-align: center;
+}
+.fb_icon ,.i_icon, .m_icon
+{
+    margin-right: 5%;
+    float: right;
+    color: #fff;
+    opacity: .75;
+}
+.tit_txt
+{
+    margin:0;
+    float: left;
+}
+.nametxt
+{
+    color:#fff;
+    opacity: .75;
+}
+@media screen and (max-width:600px)
+{
+    .footericon , .foot_text,.tit_txt
+    {
+        margin-top: 2%;
+    }
+    .fb_icon ,.i_icon, .m_icon , .tit_txt
+    {
+        text-align: center !important;
+        float: none !important;
+    }
+}
 /*footer ends*/
+
+
+
 /*animations*/
  #head {
      -vendor-animation-duration: 3s;
