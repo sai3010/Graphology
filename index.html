@@ -34,13 +34,13 @@
     </div>
     <nav id="navbar">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#!" class="brand-logo"><img src=""></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#aboutus">About</a></li>
                 <li><a class="modal-trigger" href="#modal1">Contact</a></li>
-               <li><a href="mobile.html">Upload</a></li>
+               <li><a href="#card2">Upload</a></li>
             </ul>
         </div>
     </nav>
@@ -52,39 +52,44 @@
         <li><a href="mobile.html">Upload</a></li>
     </ul>
       <!-- Modal Structure -->
-      <div id="modal1" class="modal">
+      <div id="modal1" class="modal wow zoomIn">
             <div class="modal-content">
                     <div class="row">
                             <form class="col s12">
                               <div class="row">
-                                <div class="input-field col s6">
-                                  <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                                <div class="icon col"> <i class="material-icons">face</i></div>
+                                <div class="input-field col s5 m5 l5">  
+                                <input id="first_name" type="text" class="validate">
                                   <label for="first_name">First Name</label>
                                 </div>
-                                <div class="input-field col s6">
+                                <div class="input-field col s5 m5 l5">
                                   <input id="last_name" type="text" class="validate">
                                   <label for="last_name">Last Name</label>
                                 </div>
                                 </div>
                                 <div class="row">
-                                       
-                                            <div class="input-field inline col s12 m12 l12 ">
+                                        <div class="icon col"> <i class="material-icons">markunread</i></div>
+                                            <div class="input-field inline col s10 m10 l10 ">
                                             <input id="email_inline" type="email" class="validate">
                                             <label for="email_inline">Email</label>
                                             <span class="helper-text" data-error="wrong" data-success="right"></span>
                                           </div>
                                         
                                       </div>
+                                      <div class="row center">
+                                            <a class="modal-close waves-effect waves-green btn" id="mbutton">Send</a>
+                                        
+                                        </div>     
                                     </form>
-                        </div>            
+                        </div>
+                       
             </div>
-            <div class="modal-footer">
-                <a class="modal-close waves-effect waves-green btn">Send</a>
-            </div>
+            
+                
         </div>
 
     <!--main-->
-    <div class="head">
+    <div class="head" id="home">
         <br>
         <br>
         <br>
@@ -93,7 +98,10 @@
 
         <div class="title " align="center">
             <h1 class="wow slideInUp" data-wow-duration="2s" data-wow-delay="1s" id="head">Monisha's Graphology</h1>
-            <p class="container wow flipInX" data-wow-duration="2s" data-wow-delay="1s" id="hbody"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <p class="container wow flipInX" data-wow-duration="2s" data-wow-delay="1s" id="hbody"> Graphology is the analysis of the physical characters and
+                 patterns of handwriting claiming to be 
+                able to identifythe writer, indicating psychological state at the time of writing, or evaluating personality characteristics. 
+                It is generally considered as pseudoscience.</p>
         </div>
 
     </div>
@@ -102,10 +110,12 @@
 
         <!--about us-->
         <div class="about" id="aboutus">
-                <h4 class="sec2_title ">About</h4>
             <div class="row">
-                <div class="about_desc col s12 m8 l7 offset-l1 wow rollIn"  data-wow-duration="2s">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="about_desc col s12 m8 l7 offset-l1"  data-wow-duration="2s">
+                        Writing originates in the brain, not in the fingers and that handwriting is actually brain writing.
+                        handwriting depicts behaviour,personality and role of an individual.
+                        The method of analysing the handwriting is called Graphology.
+                        Get ur analysis done and know more about yourself.
                 </div>
 
                 <div class="hide-on-small-only col m4 l4 wow slideInRight"  data-wow-duration="2s">
@@ -123,20 +133,20 @@
                     <h4 class="sec2_title ">Analysis</h4>
                     <ul class="collapsible" id="card1">
                         <li>
-                            <div class="collapsible-header"><i class="far fa-smile-wink"></i>Area 4 &amp; Heavy pressure</div>
+                            <div class="collapsible-header"><i class="material-icons">sentiment_neutral</i>Confusion of interests</div>
                             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                         </li>
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">place</i>Rounded investigative thinking</div>
+                            <div class="collapsible-header"><i class="material-icons">sentiment_very_satisfied</i>Pride </div>
                             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                         </li>
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">whatshot</i>Average size
+                            <div class="collapsible-header"><i class="material-icons">mood_bad</i>Regression
                             </div>
                             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                         </li>
                         <li>
-                            <div class="collapsible-header"><i class="far fa-smile-wink"></i>Lower zone dominating</div>
+                            <div class="collapsible-header"><i class="material-icons">sentiment_very_dissatisfied</i>Evasiveness</div>
                             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                         </li>
                         <!--<li>
@@ -174,7 +184,7 @@
             </div>
         </div>
         <div class="row">
-          <center> <h6 class="wow tada">Download the Detailed Sample Report <a class="d_txt" href="#">here.</a> </h6></center>
+          <center> <h6 class="wow pulse">Download the Detailed Sample Report <a class="d_txt" href="#">here.</a> </h6></center>
        </div>
     </div> 
 

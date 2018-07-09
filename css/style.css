@@ -126,6 +126,7 @@
      pointer-events: none;
 }
 /*loader animation ends here*/
+
 /*general styling*/
  body, html {
      background-color: white;
@@ -135,9 +136,10 @@
      overflow: auto;
 }
 /* general ends*/
+
 /*nav bar */
  nav{
-     font-family: 'Roboto',sans-serif;
+     font-family: 'Poppins';
      font-weight: 600;
      box-shadow: none !important;
      position: fixed;
@@ -147,12 +149,12 @@
      z-index: 600;
 }
  #navbar {
-     background-color: #333 !important;
+     background-color:#e57373!important;
 }
 /* Navbar links */
  #navbar a {
      float: left;
-     color: #f2f2f2;
+     color: white;
      text-align: center;
      text-decoration: none;
 }
@@ -165,8 +167,24 @@
      z-index: 10000;
 }
 
+#mbutton
+{
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  padding-top: 1%;
+  background-color: #ef5350;
+}
+
+#modal1
+{
+  border-radius: 10px;
+  vertical-align: middle;
+}
 
 /*nav bar ends*/
+
+
 /*home section */
  .title {
      position: absolute;
@@ -210,11 +228,11 @@
      color: #424242;
      font-size: 1.3em;
      font-weight:500;
-     margin-top: 3%;
+     margin-top: 1%;
 }
 #aboutus
 {
-    margin-top:5%;
+    margin-top:3%;
 }
 /* about ends*/
 /*card sec starts*/
@@ -222,6 +240,7 @@
 {
     color: #212121;
     opacity: .75;
+    text-shadow:2px #d7ccc8;
 }
 #card_sec
 {
@@ -261,7 +280,7 @@
  #upload {
      width: 180px !important;
      margin-bottom: 1%;
-     background-color: #555555;
+     background-color: #ef5350;
 }
  p {
      font-family: 'Poppins';
@@ -325,6 +344,7 @@
      #head{
          font-size: 50px;
          margin-top: -2%;
+
     }
      .about_desc {
          font-size:15px;
