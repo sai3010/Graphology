@@ -30,7 +30,7 @@
       </div>
       <nav id="navbar">
          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><img src=""></a>
+            <!--<a href="#!" class="brand-logo"><img src="assets/images/logo.png"></a>-->
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                <li><a href="#home">Home</a></li>
@@ -50,23 +50,23 @@
       <div id="modal1" class="modal wow zoomIn">
          <div class="modal-content">
             <div class="row">
-               <form class="col s12">
+               <form  action="https://formspree.io/s.spoorthi.97@gmail.com" class="col s12" method="POST">
                   <div class="row">
-                     <div class="input-field col s12 m5 l5">  
+                     <div class="input-field col s7 m5 l5">  
                         <i class="material-icons prefix">face</i>
-                        <input id="first_name" type="text" class="validate">
+                        <input  type="text" class="validate" name="first_name" id="first_name">
                         <label for="first_name">First Name</label>
                      </div>
-                     <div class="input-field col s12 m5 l5">
-                        <i class="material-icons prefix">face</i>
-                        <input id="last_name" type="text" class="validate">
+                     <div class="input-field col s5 m5 l5">
+                       <!-- <i class="material-icons prefix">face</i>-->
+                        <input id="last_name" type="text" class="validate" name="last_name">
                         <label for="last_name">Last Name</label>
                      </div>
                   </div>
                   <div class="row">
                      <div class="input-field inline col s12 m10 l10 ">
                         <i class="material-icons prefix">markunread</i>
-                        <input id="email_inline" type="email" class="validate">
+                        <input id="email_inline" type="email" class="validate" name="emailID">
                         <label for="email_inline">Email</label>
                         <span class="helper-text" data-error="wrong" data-success="right"></span>
                      </div>
@@ -74,13 +74,14 @@
                   <div class="row">
                      <div class="input-field inline col s12 m10 l10 ">
                         <i class="material-icons prefix">message</i>
-                        <textarea id="textarea1" class="materialize-textarea" data-length="200" ></textarea>
-                        <label for="textarea1">Textarea</label>
+                        <textarea id="textarea1" class="materialize-textarea" data-length="200" name="message" ></textarea>
+                        <label for="textarea1">Anything you want to share?</label>
                         <span class="helper-text" data-error="wrong" data-success="right"></span>
                      </div>
                   </div>
                   <div class="row center">
-                     <a class="modal-close waves-effect waves-green btn" id="mbutton">Send</a>
+                     <!--<input type="submit" value="send" class="modal-close waves-effect waves-green btn" id="mbutton" >Send</a>-->
+                     <button type="submit">Send</button>
                   </div>
                </form>
             </div>
@@ -127,20 +128,20 @@
                   <ul class="collapsible" id="card1">
                      <li>
                         <div class="collapsible-header"><i class="material-icons">sentiment_neutral</i>Confusion of interests</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div class="collapsible-body"><span>Occurs when lower loops of the line intertwine with the upper loops of the next line.</span></div>
                      </li>
                      <li>
                         <div class="collapsible-header"><i class="material-icons">sentiment_very_satisfied</i>Pride </div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div class="collapsible-body"><span>T-stems and D-stems are between two and two and one half times the height of the lower case lettrs or height of the middle zone.</span></div>
                      </li>
                      <li>
                         <div class="collapsible-header"><i class="material-icons">mood_bad</i>Regression
                         </div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div class="collapsible-body"><span>Incomplete lower loops that begin witha downstrike, move to the left and do not return up to the base line.</span></div>
                      </li>
                      <li>
                         <div class="collapsible-header"><i class="material-icons">sentiment_very_dissatisfied</i>Evasiveness</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div class="collapsible-body"><span>Hooks at the top of the circle letters.</span></div>
                      </li>
                      <!--<li>
                         <div class="collapsible-header"><i class="far fa-smile-wink"></i>Change, Desire for</div>

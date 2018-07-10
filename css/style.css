@@ -227,7 +227,7 @@
  .about_desc {
      font-family: 'Poppins';
      color: #424242;
-     font-size: 1.3em;
+     font-size: 1.4em;
      font-weight:500;
      margin-top: 1%;
 }
@@ -259,16 +259,18 @@
 
 .collapsible-header:hover
 {
-  background-color:#ffebee;
+  background-color:#ff8a80;
 }
 
  #card1 {
      box-shadow:2px 3px 2px 5px #d7ccc8;
      border-radius: 5px;
+     font-size: 1em;
 }
  #card2 {
      box-shadow:2px 3px 2px 5px #d7ccc8;
      border-radius: 5px;
+     font-size: 1em;
 }
 /*card sec ends*/
 
@@ -364,6 +366,10 @@
     }
      #head{
          font-size: 40px;
+       
+    }
+    .head{
+        height:80vh ;
     }
      
      .about_desc {
